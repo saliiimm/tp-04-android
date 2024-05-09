@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="50dp"
+
+        android:gravity="center">
+        <TextView android:text="Login" android:layout_marginRight="20px"   android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText android:hint="Login" android:id="@+id/login"   android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="50dp"
+
+        android:gravity="center">
+        <TextView android:text="Mot de passe" android:layout_marginRight="20px"   android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText android:hint="Mot de passe" android:id="@+id/mdp"   android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="connixion" android:onClick="login"/>
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="quitter"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
